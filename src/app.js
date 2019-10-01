@@ -56,7 +56,7 @@ takeTheQuiz.onclick = () => {
         document.getElementById("results-section").style.display = "block";
 
     } else {
-      alert('Fair Enough!');
+      return false;
     }
 };
 
