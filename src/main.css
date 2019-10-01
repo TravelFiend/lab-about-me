@@ -15,8 +15,15 @@ h1, h2, h3 {
   'Open Sans',
   'Helvetica Neue',
   sans-serif;
-  color: blue;
   letter-spacing: .75px;
+}
+
+h1, h2 {
+  color: blue;
+}
+
+h3 {
+  color: #1a1a1a;
 }
 
 p, ul, ol {
@@ -68,4 +75,12 @@ footer {
 
 .about-video {
   width: 20%;
+}
+
+.results-section {
+  font-size: 22px;
+  color: blue;
+  display: none;
+  margin-top: 50px;
+
 }

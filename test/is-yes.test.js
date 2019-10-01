@@ -5,7 +5,24 @@ import { isYes } from '../src/is-yes/functions.js';
 
 const test = QUnit.test;
 
-test('is "useranswer" true', function(assert) {
+test('Did the user answer "no" on Question 1?', function(assert) {
+    //Arrange
+    // Set up your parameters and expectations
+
+    const userAnswer = 'no';
+
+    //Act 
+    // Call the function you're testing and set the result to a const
+
+    const userAnswerIsCorrect = isYes(userAnswer);
+
+    //Assert
+    // Make assertions about what is expected valid result
+
+    assert.equal(userAnswerIsCorrect, false);
+});
+
+test('Did the user answer "yes" on Question 2?', function (assert) {
     //Arrange
     // Set up your parameters and expectations
 
@@ -22,11 +39,11 @@ test('is "useranswer" true', function(assert) {
     assert.equal(userAnswerIsCorrect, true);
 });
 
-test('is "useranswer" false', function (assert) {
+test('Did the user answer "yes" on Question 3?', function (assert) {
     //Arrange
     // Set up your parameters and expectations
 
-    const userAnswer = 'no';
+    const userAnswer = 'yes';
 
     //Act 
     // Call the function you're testing and set the result to a const
@@ -36,5 +53,5 @@ test('is "useranswer" false', function (assert) {
     //Assert
     // Make assertions about what is expected valid result
 
-    assert.equal(userAnswerIsCorrect, false);
+    assert.equal(userAnswerIsCorrect, true);
 });
