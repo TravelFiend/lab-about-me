@@ -51,6 +51,9 @@ takeTheQuiz.onclick = () => {
 
         const userSpan = document.getElementById('user');
         userSpan.textContent = userName;
+
+        const percentageSpan = document.getElementById('percent')
+        percentageSpan.textContent = Math.floor((score/3) * 100);
     
         document.getElementById("hide-when-complete").style.display = "none";
         document.getElementById("results-section").style.display = "block";
