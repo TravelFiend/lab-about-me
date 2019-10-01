@@ -4,38 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/main.css">
   <title>About Joseph</title>
 </head>
 <body> 
-  <main>
-    <h1>Who is Joseph?</h1>
-    <p>Hi! I’m Joseph (he/him) and I’m a designer & developer living, working, and playing in Portland, Oregon. I like layout design, riding my scooter, and going to the grocery store. I dislike goat cheese, dirty dishes, and wearing shorts outside of my house.</p>
-    <h2>Some Fun Facts:</h2>
-    <p>I was born in Winston Salem, North Carolina and was the 3rd biggest baby born at Forsyth Medical Center in 1991. Clocking in as 12 pounds 3 ounces!</p>
-    <p>My favorite person in the world is my mom. She's the cutest and my favorite thing is taking her to new places (she hasn't experienced much of the world).</p>
-    <p>I loved baked goods and will never turn down an opporunity for a bread item. My personal favorite is the almond croissant at Grand Central Bakery.</p>
-    <h3>Places I've Lived</h3>
-    <ul>
-      <li>Winston-Salem, NC</li>
-      <li>Marion, Indiana</li>
-      <li>Portland, OR</li>
-    </ul>
-    <h3>My Favorite Baked Goods</h3>
-    <ol>
-      <li>Almond Croissants</li>
-      <li>Coffee Cake</li>
-      <li>Quiche</li>
-    </ol>
-    <hr>
-    <h2>Think you know more about me than I do?</h2>
-    <button>Take the quiz</button>
+  <main class="flex-container">
+    <section class="video-section">
+      <video class="about-video" autoplay loop muted playsinline>
+        <source src="http://josephtatum.com/media/pages/about/2800236076-1569368225/joseph-shake-it.mp4" type="video/mp4">
+      </video>
+      <video class="about-video" autoplay loop muted playsinline>
+        <source src="http://josephtatum.com/media/pages/about/2800236076-1569368225/joseph-shake-it.mp4" type="video/mp4">
+      </video>
+      <video class="about-video" autoplay loop muted playsinline>
+        <source src="http://josephtatum.com/media/pages/about/2800236076-1569368225/joseph-shake-it.mp4" type="video/mp4">
+      </video>
+      <video class="about-video" autoplay loop muted playsinline>
+        <source src="http://josephtatum.com/media/pages/about/2800236076-1569368225/joseph-shake-it.mp4" type="video/mp4">
+      </video>
+    </section>
+    <section class="copy-section">
+      <h1>Who is Joseph?</h1>
+      <p>Hi! I’m Joseph (he/him) and I’m a designer & developer living, working, and playing in Portland, Oregon. I like layout design, riding my scooter, and going to the grocery store. I dislike goat cheese, dirty dishes, and wearing shorts outside of my house.</p>
+      <h2>Some Fun Facts:</h2>
+      <p>I was born in Winston Salem, North Carolina and was the 3rd biggest baby born at Forsyth Medical Center in 1991. Clocking in as 12 pounds 3 ounces!</p>
+      <p>My favorite person in the world is my mom. She's the cutest and my favorite thing is taking her to new places (she hasn't experienced much of the world).</p>
+      <p>I loved baked goods and will never turn down an opporunity for a bread item. My personal favorite is the almond croissant at Grand Central Bakery.</p>
+      <h3>Places I've Lived</h3>
+      <ul>
+        <li>Winston-Salem, NC</li>
+        <li>Marion, Indiana</li>
+        <li>Portland, OR</li>
+      </ul>
+      <h3>My Favorite Baked Goods</h3>
+      <ol>
+        <li>Almond Croissants</li>
+        <li>Coffee Cake</li>
+        <li>Quiche</li>
+      </ol>
+      <hr>
+      <footer>
+        <h2>Think you know more about me than I do?</h2>
+        <button>Take the quiz</button>
+      </footer>
+    </section>
   </main>
-  <aside>
-    <video class="about-video" autoplay loop muted playsinline>
-      <source src="http://josephtatum.com/media/pages/about/2800236076-1569368225/joseph-shake-it.mp4" type="video/mp4">
-    </video>
-  </aside>
   <script type="module" src="src/app.js"></script>
 </body>
 </html>
