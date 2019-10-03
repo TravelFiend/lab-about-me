@@ -1,0 +1,89 @@
+body {
+  background-color: #fafafa;
+  padding: 15px;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: -apple-system,
+  BlinkMacSystemFont,
+  'Karla',
+  'Segoe UI',
+  Roboto,
+  Oxygen,
+  Ubuntu,
+  Cantarell,
+  'Open Sans',
+  'Helvetica Neue',
+  sans-serif;
+  letter-spacing: .75px;
+}
+
+h1, h2 {
+  color: blue;
+  font-weight: bold;
+}
+
+h3 {
+  color: #1a1a1a;
+}
+
+p, ul, ol {
+  line-height: 1.5;
+  font-family: 'Karla', sans-serif;
+}
+
+hr {
+  margin: 50px 0;
+}
+
+button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 30px;
+  background-color: #fafafa;
+  border-radius: 500px;
+  border: 5px blue solid;
+  color: blue;
+  box-shadow: #1a1a1a;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color:blue;
+  color: #fafafa;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy-section {
+  width: 600px;
+}
+
+.video-section {
+  justify-content: space-evenly;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.about-video, .about-photo {
+  width: 20%;
+}
+
+.results-section {
+  font-size: 22px;
+  color: blue;
+  display: none;
+  margin-top: 50px;
+
+}
